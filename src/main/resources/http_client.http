@@ -1,0 +1,14 @@
+GET http://localhost:8080/api/users/123
+Authorization: Bearer your-token-here
+Accept: application/json
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "Gagan",
+  "email": "gagan@example.com"
+}
+###
+GET http://localhost:8080/api/chat?message=tell me a joke ?
+Accept: application/json
