@@ -10,7 +10,7 @@ Content-Type: application/json
   "email": "gagan@example.com"
 }
 ###
-GET http://localhost:8080/api/openai/chat?message=tell me a joke ?
+GET http://localhost:8080/api/openai/chat?message=tell me how IT support person will write his resume ?
 Accept: application/json
 
 ###
