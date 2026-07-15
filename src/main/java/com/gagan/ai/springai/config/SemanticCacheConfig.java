@@ -35,7 +35,7 @@ public class SemanticCacheConfig {
                 .jedisClient(redisClient)
                 .embeddingModel(embeddingModel)
                 .similarityThreshold(0.9)
-                .indexName("eazybytes-semantic-cache")
+                .indexName("gagan-semantic-cache")
                 .prefix("cache:")
                 .build();
     }*/
